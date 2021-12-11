@@ -39,7 +39,7 @@ $('.operator').on('click',function(){
     printOutput("");
   }
   else if(this.id=='backspace'){
-    var output = reverseNumberFormat(getOutput).toString();
+    var output = reverseNumberFormat(getOutput()).toString();
     if(output){
       output= output.substr(0,output.lenght-1);
       printOutput(output);
