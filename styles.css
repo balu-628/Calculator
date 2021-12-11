@@ -1,0 +1,87 @@
+body{
+  font-family: 'roboto';
+  background-color:black;
+
+}
+
+#container{
+
+  width:1000px;
+  height:600px;
+  background-image: linear-gradient(rgba(1, 0, 0, 0.3),rgba(1, 0, 0, 0.3)),url(code.jpg);
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin: 20px auto;
+}
+#calculator{
+  border: 1px solid black;
+  position: relative;
+  top:20px;
+  margin: 0 auto;
+  height:520px;
+  width:320px;
+  background-color: #eaedef;
+  border-radius: 5px;
+}
+#result{
+  height:120px;
+}
+
+#keybord{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #99A799;
+  padding: 0px;
+  height:400px;
+}
+#history{
+  text-align: right;
+  height:20px;
+  margin:0 20px;
+  padding-top: 10px;
+  font-size: 20px;
+  color:#199191;
+}
+#output{
+  text-align:right;
+  height:600px;
+  margin:10px 20px;
+  font-size:30px;
+}
+.operator,.number,.empty, button{
+  margin: 1px;
+  border-radius: 200px;
+  background-color: rgba(255, 255, 255, 0.8);
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 10px;
+ font-size: 20px;
+ text-align: center;
+ cursor: pointer;
+}
+.empty {
+  border:none;
+  background-color: #99A799;
+}
+button:nth-child(4){
+  background-color: #577BC1;
+}
+button:nth-child(8){
+  background-color: #292C6D;
+}
+button:nth-child(12){
+  background-color: #EBE645;
+}
+button:nth-child(16){
+  background-color: #EC255A;
+}
+button:nth-child(20){
+  background-color: #20b2aa;
+}
+.empty:hover{
+  border: none;
+  background-color: #99A799;
+}
+button:hover{
+  border:1px solid rgba(0, 0, 0, 0) ;
+  background-color: white;
+}
