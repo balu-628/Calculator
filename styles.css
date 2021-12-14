@@ -85,3 +85,15 @@ button:hover{
   border:1px solid rgba(0, 0, 0, 0) ;
   background-color: white;
 }
+@media only screen and (max-width:500px) {
+  #container{
+
+    width:auto;
+    height:auto;
+    background-image: linear-gradient(rgba(1, 0, 0, 0.3),rgba(1, 0, 0, 0.3));
+    background-size: contain;
+    background-repeat:no-repeat;
+    margin: 20px auto;
+  }
+  
+}
