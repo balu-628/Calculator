@@ -87,8 +87,7 @@ button:hover{
 }
 @media only screen and (max-width:500px) {#container {
     width: auto;
-    height: fit-contentauto;
-    background-image: linear-gradient(rgba(1, 0, 0, 0.3),rgba(1, 0, 0, 0.3)),url(code.jpg);
+    background-image: none;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 20px auto;
